@@ -1,7 +1,7 @@
 ﻿{
-    "name":  "Andalusien 2026 Reiseplan",
+    "name":  "Andalusien 2026 Reise-App",
     "short_name":  "Andalusien",
-    "description":  "Interaktiver Reiseplan Andalusien 2026",
+    "description":  "Interaktive Andalusien-Reise-App 2026",
     "lang":  "de",
     "start_url":  "./",
     "scope":  "./",

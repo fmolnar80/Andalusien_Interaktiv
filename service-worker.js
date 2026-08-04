@@ -1,4 +1,4 @@
-﻿const CACHE_NAME = 'andalusien-2026-v1';
+﻿const CACHE_NAME = 'andalusien-reise-app-2026-v1';
 const APP_SHELL = [
   './',
   './index.html',

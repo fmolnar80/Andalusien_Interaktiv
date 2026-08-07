@@ -265,6 +265,16 @@ document.getElementById('allBtn').addEventListener('click',function(){var any=Ar
     });
   })();
 </script>
+<script>
+document.addEventListener('click',function(e){
+  var a=e.target.closest?e.target.closest('a[href^=&quot;#&quot;]'):null;
+  if(!a)return;
+  var id=a.getAttribute('href').slice(1);
+  if(!id)return;
+  var el=document.getElementById(id);
+  if(el){e.preventDefault();try{el.scrollIntoView(true);}catch(_){var y=el.getBoundingClientRect().top+(window.pageYOffset||document.documentElement.scrollTop||0)-56;window.scrollTo(0,y);}}
+},true);
+</script>
 </body></html>"></iframe>
    <iframe id="f-es" class="frame" srcdoc="<!DOCTYPE html><html lang=&quot;de&quot;><head><meta charset=&quot;utf-8&quot;><meta name=&quot;viewport&quot; content=&quot;width=device-width,initial-scale=1,viewport-fit=cover&quot;><title>Reise-Spanisch · Dein Sprach-Begleiter</title><style>
 :root{--paper:#FBF7F0;--paper2:#F4ECDE;--ink:#241F1A;--soft:#6A5F51;--indigo:#163A5F;--gold:#B87724;--gold-tint:#F6E9CF;--pome:#8F332A;--blue-tint:#E6EEF4;--line:#E4D8C2;--card:#FFFFFF;
@@ -351,7 +361,17 @@ document.querySelectorAll('.ph').forEach(function(ph){ph.addEventListener('click
 document.querySelectorAll('.numgrid .n').forEach(function(n){n.addEventListener('click',function(){speak(this.getAttribute('data-es'));});});
 document.querySelectorAll('.dialog .es').forEach(function(l){l.addEventListener('click',function(){var es=this.getAttribute('data-es');if(es)speak(es);});l.style.cursor='pointer';});
 document.getElementById('practiceBtn').addEventListener('click',function(){var on=wrap.classList.toggle('practice');this.textContent=on?'Lernmodus':'Übungsmodus';document.querySelectorAll('.ph.revealed,.reply.revealed').forEach(function(x){x.classList.remove('revealed');});});
-</script></body></html>"></iframe>
+</script><script>
+document.addEventListener('click',function(e){
+  var a=e.target.closest?e.target.closest('a[href^=&quot;#&quot;]'):null;
+  if(!a)return;
+  var id=a.getAttribute('href').slice(1);
+  if(!id)return;
+  var el=document.getElementById(id);
+  if(el){e.preventDefault();try{el.scrollIntoView(true);}catch(_){var y=el.getBoundingClientRect().top+(window.pageYOffset||document.documentElement.scrollTop||0)-56;window.scrollTo(0,y);}}
+},true);
+</script>
+</body></html>"></iframe>
  </div>
  <script>
    var burger=document.getElementById('burger'),menu=document.getElementById('menu'),pt=document.getElementById('pt');

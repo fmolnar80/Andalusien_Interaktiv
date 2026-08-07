@@ -1,4 +1,4 @@
-const CACHE = 'andalusien-2026-v20';
+const CACHE = 'andalusien-2026-v21';
 const ASSETS = [
   './',
   './index.html',
